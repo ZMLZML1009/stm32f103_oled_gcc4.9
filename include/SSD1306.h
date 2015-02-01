@@ -2,12 +2,14 @@
 #define SSD1306_H
 
 /*
- * SSD1306.h
+ * SSD1306.c
  * Author: Harris Shallcross
  * Year: 2014-ish
  *
- * SSD1306 driver library using the STM32F0 discovery board
- * STM32F0 communicates with OLED display through SPI, pinouts described below.
+ * Modified for STM32F103 by Vlad Stolyarov, Cavendish Lab, 01-2015
+ * 
+ * SSD1306 driver library using the STM32F103 minimum development board
+ * STM32F1 communicates with OLED display through SPI, pinouts described below.
  *
  * This code is provided AS IS and no warranty is included!
  */
